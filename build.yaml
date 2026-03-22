@@ -15,7 +15,7 @@
 include:
 # Hillside 52
 #   Comment out below if you do not have this board, to save build time
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: hillside52_left
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: hillside52_right
