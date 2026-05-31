@@ -45,10 +45,10 @@
 
         layer_lower {
             bindings = <
-&kp TILDE  &none            &none        &kp HASH          &kp DOLLAR  &kp PLUS                                 &kp SLASH      &kp AMPS          &kp MINUS              &none     &none      &none
-&kp CARET  &kp EXCLAMATION  &kp AT_SIGN  &kp LPAR          &kp LBRC    &kp PERCENT                              &kp ASTRK      &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS  &kp PIPE  &kp COLON  &kp DQT
-&kp EQUAL  &none            &none        &kp LEFT_BRACKET  &kp LT      &kp UNDER    &none                &none  &kp BACKSLASH  &kp GREATER_THAN  &kp RIGHT_BRACKET      &none     &kp QMARK  &none
-&none      &none            &none                          &none       &none        &none  &none  &none  &none  &none          &none                                    &none     &none      &none
+&kp TILDE               &none            &none        &kp HASH          &kp DOLLAR  &kp PLUS                                     &kp SLASH      &kp AMPS          &kp MINUS              &none     &none      &none
+&mt LEFT_CONTROL CARET  &kp EXCLAMATION  &kp AT_SIGN  &kp LPAR          &kp LBRC    &kp PERCENT                                  &kp ASTRK      &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS  &kp PIPE  &kp COLON  &kp DQT
+&mt LEFT_ALT EQUAL      &none            &none        &kp LEFT_BRACKET  &kp LT      &kp UNDER    &none                   &none   &kp BACKSLASH  &kp GREATER_THAN  &kp RIGHT_BRACKET      &none     &kp QMARK  &none
+&trans                  &none            &none                          &lt 3 TAB   &trans       &trans  &trans  &trans  &trans  &lt 3 DEL      &trans                                   &trans    &none      &trans
             >;
         };
 
